@@ -1,0 +1,23 @@
+body {
+    /* Substitua 'caminho_da_imagem.jpg' pelo caminho real da sua imagem */
+    background: url('../fotos/6a87e0cb51516f358371918925dabaf8.jpg') no-repeat center center fixed;
+    /* Ajuste a propriedade background-size conforme necessário */
+    background-size: cover;
+    /* Define uma cor de fundo caso a imagem não esteja disponível ou carregue lentamente */
+    background-color: #cccccc;
+    /* Garante que a imagem de fundo seja responsiva */
+    height: 100vh;
+    /* Evita que a imagem se repita caso não cubra todo o corpo */
+    overflow: hidden;
+}
+.container {
+    height: auto;
+}
+.carousel slide  {
+    height: auto;
+}
+.d-block {
+    max-width: 100%;
+    height: auto;
+    
+}
